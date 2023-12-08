@@ -2,8 +2,8 @@
 
 # Detect the Linux distribution
 figlet -f slant SP4M
-echo "    Hundred Laugh"
-
+echo "        Hundred Laugh"
+echo "\n"
 if [ -f "/etc/os-release" ]; then
     source /etc/os-release
     case $ID in
