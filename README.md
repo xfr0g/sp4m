@@ -1,3 +1,5 @@
+![Screenshot from 2023-12-08 20-47-08](https://github.com/semiiixyz/sp4m/assets/125569648/0dd49749-7a08-4eb8-9551-1a680c4b710b)
+
 # SP4M
 
 SP4M: Hundred Laugh is a simple message spammer tool.
