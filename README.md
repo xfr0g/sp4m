@@ -18,3 +18,6 @@ Termux:
 * chmod +x installer.sh
 * ./installer.sh
 * python3 sp4m.py
+
+# Note
+Author is not responsible for any misuse of the tool.
