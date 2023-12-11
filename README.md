@@ -2,7 +2,7 @@
 
 # SP4M
 
-SP4M: Hundred Laugh is a simple message spammer tool.
+SP4M: Hundred Laugh is a simple message spamming tool.
 
 # Usage
 Debian/Arch Linux:
