@@ -6,7 +6,7 @@ echo "        Hundred Laugh"
 echo "\n"
 if [ -f "/etc/os-release" ]; then
     source /etc/os-release
-    case $ID in
+    case $ID_LIKE in
         debian|ubuntu)
             # Debian-based systems
             echo "Installing required Python modules for Debian-based system..."
