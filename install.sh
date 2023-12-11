@@ -1,9 +1,10 @@
 #!/bin/bash
 
-# Detect the Linux distribution
+# Detect the operating system
 figlet -f slant SP4M
 echo "        Hundred Laugh"
 echo "\n"
+
 if [ -f "/etc/os-release" ]; then
     source /etc/os-release
     case $ID_LIKE in
@@ -22,12 +23,19 @@ if [ -f "/etc/os-release" ]; then
             echo "Installation complete."
             ;;
         *)
-            echo "Unsupported distribution: $ID"
+            echo "Unsupported distribution: $ID_LIKE"
             exit 1
             ;;
     esac
+elif command -v termux &> /dev/null; then
+    # Termux
+    echo "Installing required Python modules for Termux..."
+    pkg update
+    pkg install -y python libx11
+    pip install termcolor pyautogui
+    echo "Installation complete."
 else
-    echo "Unable to detect Linux distribution. Exiting."
+    echo "Unable to detect the operating system. Exiting."
     exit 1
 fi
 
