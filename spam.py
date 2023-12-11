@@ -12,7 +12,7 @@
 # Author: Semiii
 # Contact: r3moved777@protonmail.com 
 # Github: github.com/semiiixyz
-# Language: Python3, BASH
+# Language/s: Python3, BASH
 
 # Install all required modules
 import time, pyautogui
